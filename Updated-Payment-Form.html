@@ -1,0 +1,53 @@
+                                                          <!--A Simple Payment Form Using HTML And CSS-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment-Form</title>
+    <link rel="stylesheet" href="style.CSS">
+</head>
+<body>
+    <div class="one">
+        <form action="">
+            <h1 class="two">Payment Form</h1>
+            <hr>
+            <p class="john"><span style="color: red;">*</span><em>Fields Are Mandatory</em></p>
+            <h2 class="seven">User Details</h2>
+            <p class="name"> <span style="color: red;">*</span>Full Name : <input class="Ahamed" type="text" name="Fname" id="Fname" required placeholder="John Doe"> </p>
+            <p>
+            <fieldset>
+                <legend><span style="color: red;">*</span>Gender</legend>
+                <input type="radio" name="gender" id="male" required>Male
+                <br>
+                <input type="radio" name="gender" id="female" required>Female
+                <br>
+                <input type="radio" name="gender" id="other" required>Other
+            </fieldset>
+            </p>
+            <span class="four"><span style="color: red;">*</span> Mobile no : <input type="number" name="mobile" id="mobile" required placeholder=""> </span>
+            <span class="five">Email : <input type="mail" name="email" id="email" placeholder="xyz@gmail.com"></span>
+            <p class="seven">Address : <textarea name="" id="" cols="80" rows="7"></textarea></p>
+            <p><span style="color: red;">*</span>Pincode : <input type="number" name="Pin" id="Pin"></p>
+            <hr>
+            <h2 class="seven">Payment Details</h2>
+            <div class="twelve">
+                <div class="ABC XYZ"><p> <span style="color: red;">*</span>Card Type : 
+                    <select name="" id="debit">
+                        <option value="">--Select a Card Type--</option>
+                        <option value="Mastercard">Mastercard</option>
+                        <option value="Rupay">Rupay</option>
+                        <option value="Visa">Visa</option>   
+                    </select>
+                </div>
+                </p>
+                <div class="ABC BCD"><p><span style="color: red;">*</span>Card Number : <input type="number" name="card no" id="card no" required placeholder="1111-2222-3333-4444"></p></div>
+                <div class="ABC CDE"><p><span style="color: red;">*</span>Cvv : <input type="password" name="security" id="security" required placeholder="321"></p></div>
+                <div class="ABC DEF"><p><span style="color: red;">*</span>Expiry : <input type="date" name="Date" id="Date" required></p></div>
+                <div class="ABC EFG"><p class="eleven"><input type="submit" value="Pay"></p></div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
